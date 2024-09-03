@@ -1,0 +1,24 @@
+benifits of gui 
+1)user friendly
+2)accessibility
+3)efficiency
+4)multitasking
+
+key concepts 
+#widgets
+#event
+#event loop
+#layout
+#callbacks
+
+main lib
+tkinter
+pyQt/Pyside
+
+root.mainloop()
+starts the main event loop of gui app
+responsible for handling all the events and updates of the app
+how it works 
+waiting for events
+handling event
+continous operation i.e run untill app window is closed keeping gui active and rseponsive
