@@ -1,0 +1,7 @@
+Add our html page in settings installed apps vairable
+add the page designed in urls.py where url patterns
+work in setting, urls and manage only
+
+steps:
+    create env and work in IDE
+    folder>py -m venv "NAME">"NAME"\scripts\activate>pip install django>django-admin startproject "project name"> cd projectname> py manage.py runserver
