@@ -7,3 +7,9 @@ def projects(request,pk):
 def HomePage(request):
     return HttpResponse("This Is My first website")
 # Create your views here.
+
+def Welcome(request):
+    return HttpResponse("Hello, Welcome to my page")
+
+def webpage2(request,abc):
+    return HttpResponse("this is my first application")
