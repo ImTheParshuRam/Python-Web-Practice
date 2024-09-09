@@ -1,2 +1,1 @@
-for x in var1:
-#     print(x)
+cursor.execute("SELECT * FROM employees WHERE age =30")
