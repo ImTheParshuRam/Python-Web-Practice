@@ -7,3 +7,28 @@ steps:
     folder>py -m venv "NAME">"NAME"\scripts\activate>pip install django>django-admin startproject "project name"> cd projectname> py manage.py runserver
 
     template making and database: next target
+
+whenever we made a new app we have to mention it in setting.py in INSTALLED_APPS sections and mention it locationin its DIRS
+no canges in views.py
+write code neat and clean and focus on spacing 
+
+#how to handle admin
+run env then
+python manage.py migrate
+python manage.py createsupername
+give username > mail> password(invisible)> then confirmation
+go on websitee after server /admin search ex http://127.0.0.1:8000/admin
+
+then login
+
+
+#changes in model
+import uuid
+change values in a class format
+then run comand python manage.py makemigrations
+then py manage.py migrate
+then changes will be save in app/migration folder
+
+#now register changes in admin.py
+1) import .models from NAME(MODEL NAME)
+2) admin.site.register(NAME)
